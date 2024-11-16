@@ -3,7 +3,7 @@ from StockFishEnginePython import *
 def ReviewPosition():
     # Example usage:
     position = "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5"
-    engine = StockfishEngine(r"C:\Users\mcbac\OneDrive\Desktop\Chess-Util\stockfish\stockfish-windows-x86-64-avx2.exe")
+    engine = StockfishEngine(r"path to the stockfish engine exe")
     engine.send_command("setoption name Threads value 12")
     print("Reviewing Position...")
 
